@@ -1,0 +1,191 @@
+/* css for all start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed !important;
+    bottom: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainHeading{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding: 5px 0 2px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.078);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #212529;
+}
+
+.mainHeading h3{
+    font-size: 24px;
+    color: #333333ce;
+}
+
+.mainContent{
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding:20px 40px;
+    border: 1px solid rgba(128, 128, 128, 0.078);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* css for all end  */
+
+
+/* left-menu header  */
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item a{
+    text-decoration: none;
+}
+
+.sub-menu {
+    display: none;
+    padding-left: 20px;
+}
+
+
+
+/* form css  */
+h3 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.formlabel {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formlabel2{
+    /* display:none; */
+}
+
+.forminput, .formtextarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.forminput2{
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.forminput:focus, .formtextarea:focus {
+    border-color: #fda085;
+    outline: none;
+}
+
+/* Submit Button */
+.formbutton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #fda085;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formbutton:hover {
+    background: #f6d365;
+}
+
+/* Success Message Box */
+#successMessage {
+    display: none;
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Progress Bar Animation */
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress 3s linear forwards;
+}
+
+/* Keyframe for progress bar animation */
+@keyframes progress {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+}
+
+/* product -category  */
+.plusbtn{
+        background-color: #28a745; /* Green background */
+        color: white; /* White text */
+        border: none; /* Remove default border */
+        border-radius: 50%; /* Circular button */
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .plusbtn:hover {
+        background-color: #218838; /* Darker green on hover */
+        transform: scale(1.1); /* Slight zoom effect */
+    }
+    
+    .plusbtn:active {
+        transform: scale(0.9); /* Slight shrink on click */
+    }
+
+    .subcatInput{
+        margin-bottom: 5px;
+    }
+    

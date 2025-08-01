@@ -1,0 +1,19 @@
+User ID: , Product ID: 
+User ID: , Product ID: 
+User ID: , Product ID: 
+User ID: , Product ID: 
+User ID: , Product ID: 
+Session User ID: 2, Received User ID: , Product ID: 
+User ID: , Product ID: 
+User ID: , Product ID: 
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 11
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
+Received Product ID: 0
